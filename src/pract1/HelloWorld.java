@@ -34,6 +34,7 @@ public class HelloWorld {
        // System.out.println(sum);
     }
 
+
     //// The below method addition is used for adding 2 numbers
     // /* */
 
@@ -46,6 +47,7 @@ public class HelloWorld {
     public static void addition(int num1, int num2){
         int sum;
         sum=num1+num2;
+
     }
 
 

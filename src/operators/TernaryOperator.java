@@ -10,5 +10,8 @@ public class TernaryOperator {
 
         int actualValue=(x<y)? x : y;
         System.out.println(actualValue);
+
+        int anothervalue=(x>y)?x:y;
+        System.out.println(anothervalue);
     }
 }

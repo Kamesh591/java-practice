@@ -5,17 +5,19 @@ public class EvenOdd {
     public static void main(String[] args) {
         int x = 20;
 
-        if (x / 2 == 0) {
-            System.out.println("It's number number");
+
+// for Multiline commenting & Uncommenting in Intellij , pls use Ctrl + Shift + /
+        if ( (x % 2)== 0)
+        {
+            System.out.println("It's EVen number");
         }
-        int y = 21;
-        if (y / 2 == 0) {
+       int y = 21;
+        if ((y % 2) == 0) {
             System.out.println(y + "\tis an even number");
         } else {
             System.out.println(y + "\tis an odd number");
         }
-
-        int age = 25;
+        int age = 18;
         if (age <= 4) {
             System.out.println("Customer is Infant");
         } else if (age <= 15) {
@@ -26,6 +28,12 @@ public class EvenOdd {
 
         } else {
             System.out.println("Customer is ready for job interviews");
+        }
+
+        if(age<=20){
+            if(age%2==0){
+                System.out.println("Even number");
+            }
         }
     }
 }

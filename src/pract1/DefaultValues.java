@@ -14,14 +14,14 @@ public class DefaultValues {
     int num;
    static  {
 
-       System.out.println(b);
-       System.out.println(s);
-       System.out.println(i);
-       System.out.println(c);
-       System.out.println(l);
-       System.out.println(f);
-       System.out.println(d);
-       System.out.println(boo);
+       System.out.println("JVM default value of Byte is:"+b);
+       System.out.println("JVM default value of Short is:"+s);
+       System.out.println("JVM default value of int is:"+i);
+       System.out.println("JVM default value of Char is:"+c);
+       System.out.println("JVM default value of long is:"+l);
+       System.out.println("JVM default value of Float is:"+f);
+       System.out.println("JVM default value of Double is:"+d);
+       System.out.println("JVM default value of Boolean is:"+boo);
 
 
     }

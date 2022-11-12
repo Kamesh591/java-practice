@@ -5,6 +5,7 @@ public class AssignmentOperators {
 
         /*
         Below are the allowed operations for assignment operators
+        =
         +=
         -=
         *=
@@ -15,7 +16,9 @@ public class AssignmentOperators {
         char ch=91;
         String name="kamesh";
 
-         x+=20;
+         x+=20; //x=x+20
         System.out.println(x);
+        System.out.println(ch);
+        System.out.println(name);
     }
 }

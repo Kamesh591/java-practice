@@ -7,8 +7,8 @@ public class ArthameticOperators {
    static int x=20+30;
     static int y=20-30;
     static int z=20*30;
-   static int a=20/30;
-   static int b=20%30;
+   static double a=20/30d;
+   static int b=40%30;
 
     public static void main(String[] args) {
 
