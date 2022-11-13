@@ -19,5 +19,15 @@ public class MultiDArray {
 
         System.out.println(Arrays.toString(multiarray));
 
+        int[][] intArray = new int[10][20];
+        System.out.println(intArray.length);
+
+        System.out.println(args.length);
+        int num1=Integer.parseInt(args[0]);
+        System.out.println(num1);
+
+        int num2=Integer.parseInt(args[1]);
+        System.out.println(num2);
+
     }
 }

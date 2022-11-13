@@ -1,9 +1,9 @@
-package control.stmt;
+package control.conditions;
 
 public class EvenOdd {
 
     public static void main(String[] args) {
-        int x = 20;
+       int x = 20;
 
 
 // for Multiline commenting & Uncommenting in Intellij , pls use Ctrl + Shift + /

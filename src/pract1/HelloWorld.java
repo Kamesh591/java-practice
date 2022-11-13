@@ -11,6 +11,13 @@ public class HelloWorld {
 
         //static
 
+        // for while do
+
+        // if else switch
+        // break continue
+
+        //package
+
         byte b1=20;
         short s1=250;
         int i1=25000;

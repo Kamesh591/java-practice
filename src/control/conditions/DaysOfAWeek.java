@@ -1,9 +1,9 @@
-package control.stmt;
+package control.conditions;
 
 public class DaysOfAWeek {
 
     public static void main(String[] args) {
-        int day=30;
+        int day=3;
 
         switch (day){
 
@@ -32,5 +32,7 @@ public class DaysOfAWeek {
                 System.out.println("Seems you are not entering the correct value. Please check and reenter again");
                 break;
         }
+
+
     }
 }

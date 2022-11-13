@@ -19,5 +19,7 @@ public class SingleDArray {
         int[] array2={10,20,24,05,23,28,4,3,2};
        Arrays.sort(array2);
         System.out.println(Arrays.toString(array2));
+
+
     }
 }
