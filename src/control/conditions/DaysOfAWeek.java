@@ -3,7 +3,7 @@ package control.conditions;
 public class DaysOfAWeek {
 
     public static void main(String[] args) {
-        int day=3;
+        int day=1;
 
         switch (day){
 
@@ -21,15 +21,15 @@ public class DaysOfAWeek {
                 break;
             case 5:
                 System.out.println("Today is Thursday");
-                break;
+               break;
             case 6:
                 System.out.println("Today is Friday");
-                break;
+               break;
             case 7:
                 System.out.println("Today is Saturday");
                 break;
             default:
-                System.out.println("Seems you are not entering the correct value. Please check and reenter again");
+                System.out.println("Seems you are not entering the Incorrect value. Please check and reenter again");
                 break;
         }
 

@@ -10,5 +10,6 @@ public class BreakImpl {
             }
             System.out.println(i);
         }
+        System.out.println("Just came outside of the for loop");
     }
 }
