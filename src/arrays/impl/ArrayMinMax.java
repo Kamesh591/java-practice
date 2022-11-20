@@ -1,12 +1,16 @@
 package arrays.impl;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class ArraySort {
+public class ArrayMinMax {
+
+    int x;
+
 
     public static void main(String[] args) {
         int[] sort={10,20,5,30,4,3,40};
+      Arrays.sort(sort);
+        System.out.println(Arrays.toString(sort));
         //{3,4,5,10,20,30,40}
         /*System.out.println(Arrays.toString(sort));
         Arrays.sort(sort);

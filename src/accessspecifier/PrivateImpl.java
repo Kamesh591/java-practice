@@ -1,4 +1,4 @@
-package accessspecifier;
+package accessspecifier;//package accessspecifier;
 
 public class PrivateImpl {
 
