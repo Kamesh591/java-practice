@@ -8,9 +8,9 @@ public class Finally {
         {
             System.out.println(10/0);
         }
-        catch (Exception e){
+       /* catch (Exception e){
             e.printStackTrace();
-        }
+        }*/
         finally {
             System.out.println("Irrespective of try and catch block, finally always get the option");
         }
