@@ -16,10 +16,18 @@ public class StringConstantPool {
         String s4 = "Durga";
         String s5= "Dur"+"ga";
 
-        System.out.println(s1==s2);
+        StringBuffer sb= new StringBuffer("Durga");
+    String dummyString=    s1.concat("raghava");
+
+        sb.append("raghava");
+        sb.append("James");
+        System.out.println(s1);
+        System.out.println(sb);
+
+        /*System.out.println(s1==s2);
         System.out.println(s1==s3);
         System.out.println(s3==s4);
-        System.out.println(s3==s5);
+        System.out.println(s3==s5);*/
 
 
     }

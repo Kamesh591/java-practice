@@ -11,11 +11,15 @@ public class StringFirst {
 
     public static void main(String[] args) {
         String s="durga";
+       char[] ch= {'d','u','r','g','a'};
         s.concat("Rame");
         System.out.println(s);
 
         StringBuffer stringBuffer= new StringBuffer("Durga");
         stringBuffer.append("Software");
         System.out.println(stringBuffer);
-    }
+
+        String s1= new String();
+String s2= new String("KAMESH");
+}
 }
